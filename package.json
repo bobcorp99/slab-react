@@ -1,0 +1,54 @@
+{
+  "name": "slab",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@svg-maps/uzbekistan": "^1.0.0",
+    "@testing-library/jest-dom": "^5.16.3",
+    "@testing-library/react": "^12.1.4",
+    "@testing-library/user-event": "^13.5.0",
+    "axios": "^0.26.0",
+    "env-cmd": "^10.1.0",
+    "moment": "^2.29.4",
+    "rc-pagination": "^3.1.17",
+    "react": "^17.0.0",
+    "react-animate-on-scroll": "^2.1.5",
+    "react-app-rewired": "^2.2.1",
+    "react-countup": "^6.3.0",
+    "react-dom": "^17.0.0",
+    "react-google-charts": "^4.0.0",
+    "react-google-map-picker": "^1.2.3",
+    "react-icons": "^4.3.1",
+    "react-js-pagination": "^3.0.2",
+    "react-localization": "^1.0.19",
+    "react-router-dom": "^5.3.0",
+    "react-scripts": "^5.0.1",
+    "react-slick": "^0.28.1",
+    "react-svg-map": "^2.2.0",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts --openssl-legacy-provider start",
+    "build": "react-scripts --openssl-legacy-provider build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
